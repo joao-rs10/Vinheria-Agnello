@@ -11,6 +11,6 @@ else if (sobrenome=="") {
 } else{
     alert("Cadasto realizado! Veja os detalhes no console");
 }
-console.log("Nome do usuário: " + nome)
-console.log("Sobrenome do usuário: " + sobrenome)
+console.log("Nome do usuário: " + nome);
+console.log("Sobrenome do usuário: " + sobrenome);
    
