@@ -7,7 +7,8 @@ if (nome =="") {
 }
 else if (sobrenome=="") {
     alert("Sobrenome obrigatório");
-    var sobrenome = prompt("Insira seu sobrenome: ");}
+    var sobrenome = prompt("Insira seu sobrenome: "); 
+}
 else {
     alert("Cadasto realizado! Veja os detalhes no console");
 }
