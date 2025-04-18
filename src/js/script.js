@@ -24,7 +24,7 @@ if (nomeVinho =="") {
     var nomeVinho= prompt("Insira o nome do vinho: ");
 } else if (tipoVinho=="") {
     alert("Tipo de vinho obrigatório");
-    var sobrenome = prompt("Insira o tipo de vinho: ");
+    var tipovinho = prompt("Insira o tipo de vinho: ");
     
 } else if (safra=="") {
     alert("Safra(ano) do vinho obrigatório.");
