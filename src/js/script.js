@@ -7,8 +7,8 @@ if (nome =="") {
 }
 else if (sobrenome=="") {
     alert("Sobrenome obrigatório");
-    var sobrenome = prompt("Insira seu sobrenome: ");
-} else{
+    var sobrenome = prompt("Insira seu sobrenome: ");}
+else {
     alert("Cadasto realizado! Veja os detalhes no console");
 }
 console.log("Nome do usuário: " + nome);
@@ -37,6 +37,10 @@ if (quantidade=="") {
     var quantidade = prompt("Insira a quantidade de vinhos: "); }
 
 
+if (safra > 2025) {
+    alert('Ano inválido!')
+    var safra = prompt("Instira o ano do vinho!"); }
+
 if (safra >= 2020) {
     alert("Esse vinho é considerado jovem.")
     console.log("Safra(ano) do vinho: " + safra + " (VINHO JOVEM)");
@@ -49,8 +53,6 @@ else if (safra < 2015) {
     alert("Esse vinho é considerado antigo.")
     console.log("Safra(ano) do vinho: " + safra + " (VINHO ANTIGO)");
 }
-else if (safra > 2025) {
-    alert('Ano inválido!')
     
 
 else {
