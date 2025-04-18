@@ -9,9 +9,8 @@ if (sobrenome=="") {
     alert("Sobrenome obrigatório");
     var sobrenome = prompt("Insira seu sobrenome: "); 
 }
-else {
-    alert("Cadasto realizado! Veja os detalhes no console");
-}
+alert("Cadasto realizado! Veja os detalhes no console");
+
 console.log("Nome do usuário: " + nome);
 console.log("Sobrenome do usuário: " + sobrenome);
 
@@ -55,10 +54,8 @@ else if (safra < 2015) {
     console.log("Safra(ano) do vinho: " + safra + " (VINHO ANTIGO)");
 }
     
+alert("As informações foram coletadas! Confira no console.")
 
-else {
-    alert("As informações foram coletadas! Confira no console.")
-}
 if (quantidade <= 5) {
     console.log("Quantidade de vinho(s): " + quantidade  +  " (ESTOQUE BAIXO)" );
 }
