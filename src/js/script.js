@@ -5,7 +5,7 @@ if (nome =="") {
     alert("Nome obrigatório");
     var nome = prompt("Insira seu nome: ");
 }
-else if (sobrenome=="") {
+if (sobrenome=="") {
     alert("Sobrenome obrigatório");
     var sobrenome = prompt("Insira seu sobrenome: "); 
 }
@@ -24,10 +24,10 @@ console.log("Nome do vinho: " + nomeVinho);
 var tipoVinho = prompt(" Digite o tipo de vinho: ");
 if (tipoVinho=="") {
     alert("Tipo de vinho obrigatório");
-    var tipovinho = prompt("Insira o tipo de vinho: "); }
+    var tipoVinho = prompt("Insira o tipo de vinho: "); }
 console.log("Tipo do vinho: " + tipoVinho);
 
-var safra = prompt(" Digite a qual a safra(ano): ");
+var safra = parseInt(prompt(" Digite a qual a safra(ano): "));
 if (safra=="") {
     alert("Safra(ano) do vinho obrigatório.");
     var safra = prompt("Insira o ano do vinho: "); }
@@ -40,7 +40,7 @@ if (quantidade=="") {
 
 if (safra > 2025) {
     alert('Ano inválido!')
-    var safra = prompt("Instira o ano do vinho!"); }
+    var safra = parseInt(prompt("Instira o ano do vinho!")); }
 
 if (safra >= 2020) {
     alert("Esse vinho é considerado jovem.")
