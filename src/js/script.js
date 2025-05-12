@@ -14,6 +14,8 @@ alert("Cadasto realizado! Veja os detalhes no console");
 console.log("Nome do usuário: " + nome);
 console.log("Sobrenome do usuário: " + sobrenome);
 
+let contadorCadastros = 0;
+
 var nomeVinho = prompt(" Digite o nome do vinho: ");
 if (nomeVinho =="") {
     alert("Nome do vinho obrigatório"); 
@@ -62,3 +64,7 @@ if (quantidade <= 5) {
 else {
     console.log("Quantidade de vinho(s): " + quantidade);
 }
+
+contadorCadastros++;
+console.log("Nº do Cadastro " + contadorCadastros);
+alert('Cadastro finalizado! Foram cadastrados ' + contadorCadastros + ' vinho(s). Veja os detalhes no console');
